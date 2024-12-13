@@ -3,11 +3,12 @@
     <head>
         <title>Aurores boréales</title>
         <meta charset="utf-8">
-        <link href="norvege.css" rel="stylesheet" media="all" type="text/css">
+        <link href="../css/norvege.css" rel="stylesheet" media="all" type="text/css">
     </head>
     <body>
+        <!-- image et titre de présentation de la page -->
         <div class="banniere">
-            <img src="images/aurores.png" alt="Aurores boréales">
+            <div class="img-banniere"></div>
             <div class="titre">
                 <h1>
                     Aurores Boréales
@@ -15,16 +16,18 @@
             </div>
         </div>
         
+        <!-- menu de navigation -->
         <nav>
             <ul>
-                <li class= "texte-gauche"><a href="#">Accueil</a></li>
+                <li class= "texte-gauche"><a href="../html/index.html">Accueil</a></li>
                 <li><a href="norvege.html">Aurores Boréales</a></li>
                 <li><a href="opera.html">Opéra de Sydney</a></li>
                 <li><a href="piton.html">Piton de la Fournaise</a></li>
-                <li class= "texte-droite"><a href="#">À Propos</a></li>
+                <li class= "texte-droite"><a href="../html/propos.html">À Propos</a></li>
             </ul>
         </nav>
         
+        <!-- texte d'introduction -->
         <div class="intro centre">
             <p>
                 Les aurores boréales, ces phénomènes naturels causés par l'interaction 
@@ -40,6 +43,7 @@
             </p>
         </div>
 
+        <!-- tromsø -->
         <table class="tromso">
             <tr>
                 <td class="texte centre">
@@ -55,15 +59,16 @@
                     </p>
                 </td>
                 <td>
-                    <img src="images/tromso.jpg" alt="Tromsø">
+                    <img src="../images/tromso.jpg" alt="Tromsø">
                 </td>
             </tr>
         </table>
         
+        <!-- îles lofoten -->
         <table class="lofoten">
             <tr>
                 <td>
-                    <img src="images/lofoten.png" alt="Îles Lofoten">
+                    <img src="../images/lofoten.png" alt="Îles Lofoten">
                 </td>
                 <td class="texte centre">
                     <h2>Îles Lofoten</h2>
@@ -80,6 +85,7 @@
             </tr>
         </table>
 
+        <!-- suite du texte sur les îles lofoten -->
         <div class="lofoten-suite centre">
             <p>
                 Vous pourrez y visiter des villages de pêcheurs ou faire des randonnées en raquette.
@@ -89,6 +95,7 @@
             </p>
         </div>
 
+        <!-- observation des aurores boréales -->
         <table class="observation">
             <tr>
                 <td class="texte centre">
@@ -110,23 +117,24 @@
                     </p>
                 </td>
                 <td>
-                    <img src="images/observation.png" alt="Appareil photo">
+                    <img src="../images/observation.png" alt="Appareil photo">
                 </td>
             </tr>
         </table>
 
-        <div class="climat centre">
-            <h2>Climat</h2>
-            <p>
-                Les températures dans le nord de la Norvège sur les littoraux peuvent descendre jusqu’à 
-                -10°C en hiver, prévoyez donc des vêtements chauds.
-            </p>
+        <!-- intégration vidéo youtube -->
+        <div class="video centre">
+            <!-- ici, ce sont tous des attributs html et non supportés en css -->
+            <iframe src="https://www.youtube.com/embed/izYiDDt6d8s"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
         </div>
 
+        <!-- accessibilité et climat -->
         <table class="accessibilite">
             <tr>
                 <td>
-                    <img src="images/carte.png" alt="Carte Norvège">
+                    <img src="../images/carte.png" alt="Carte Norvège">
                 </td>
                 <td class="texte centre">
                     <h2>Accessibilité</h2>
@@ -139,15 +147,21 @@
                         Pour accéder à Tromsø ou aux ïles Lofoten depuis l’extérieur, le plus pratique est 
                         l’avion, mais le moins cher reste le train.
                     </p>
+                    <h2>Climat</h2>
+                    <p>
+                        Les températures dans le nord de la Norvège sur les littoraux peuvent descendre jusqu’à 
+                        -10°C en hiver, prévoyez donc des vêtements chauds.
+                    </p>
                 </td>
             </tr>
         </table>
         
+        <!-- pied-de-page -->
         <footer>
             <div class="footer-container">
                 <div class="footer-middle">
                     <p>2024-2025 BUT MMI</p>
-                    <img src="images/logo.png" alt="Logo MMI" class="footer-logo">
+                    <img src="../images/logo.png" alt="Logo MMI" class="footer-logo">
                 </div>
                 <div class="footer-links">
                     <a href="#">À propos</a>
