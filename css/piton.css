@@ -1,5 +1,5 @@
 body {
-    background-image: url(../image/fond9.jpg);
+    background-image: url("../images/fond9.jpg");
     background-color: rgba(0, 0, 0, 0.8);
     background-size: cover;
     background-position: center center;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url("../image/imgaccueille.jpg");
+    background-image: url("../images/imgaccueille.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -26,8 +26,6 @@ header h1 {
     margin: 0;
 }
 
-
-
 .nav-menu {
     position: fixed;
     display: flex;
@@ -39,31 +37,26 @@ header h1 {
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0;
     list-style: none;
-    z-index: 20; 
-  }
-  
-  .nav-menu .left {
+    z-index: 20;
+}
+
+.nav-menu .left {
     margin-right: 500px; /* Pousse cet élément vers la gauche */
-  }
-  
-  .nav-menu .right {
+}
+
+.nav-menu .right {
     margin-left: 500px; /* Pousse cet élément vers la droite */
-  }
-  
-  .nav-menu li {
+}
+
+.nav-menu li {
     margin: 0 20px;
-  }
-  
-  .nav-menu a {
+}
+
+.nav-menu a {
     color: white;
     text-decoration: none;
     font-size: 16px;
-  }
-
-
-
-
-
+}
 
 table {
     width: 100%;
