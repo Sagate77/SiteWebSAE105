@@ -1,7 +1,7 @@
 body {
     color: white;
     background-color: rgb(22, 22, 22);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
@@ -35,25 +35,21 @@ p {
     margin: 0;
     list-style: none;
     z-index: 20; 
-  }
-  
-  .nav-menu .left {
+}
+.nav-menu .left {
     margin-right: 500px; /* Pousse cet élément vers la gauche */
-  }
-  
-  .nav-menu .right {
+}
+.nav-menu .right {
     margin-left: 500px; /* Pousse cet élément vers la droite */
-  }
-  
-  .nav-menu li {
+}
+.nav-menu li {
     margin: 0 20px;
-  }
-  
-  .nav-menu a {
+}
+.nav-menu a {
     color: white;
     text-decoration: none;
     font-size: 16px;
-  }
+}
 
 /* bannière de présentation */
 
