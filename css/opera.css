@@ -58,14 +58,7 @@ h1{
     margin-left: 130px;
 }
 .video {
-    text-align: center;
-}
-.video iframe {
-    src: url(https://youtu.be/Gumoal-sz5Q?si=cFEtZ3UuuxRVXLGf);
-    width: 560px;
-    height: 315px;
-    border: none;
-    border-radius: 8px;
+    margin-left: 40px;
 }
 .Histoire{
     display: flex;
