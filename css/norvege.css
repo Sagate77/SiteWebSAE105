@@ -26,13 +26,14 @@ p {
 
 /* menu de navigation */
 
-.nav-menu {
+  .nav-menu {
     position: fixed;
     display: flex;
     justify-content: center;
     top: 0;
     width: 100%;
-    padding: 20px 10px;
+    height: auto;
+    padding: 20px 45px;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0;
     list-style: none;
@@ -40,11 +41,11 @@ p {
 }
 
 .nav-menu .left {
-    margin-right: 25vw; /* Pousse cet élément vers la gauche */
+    margin-right: 22vw; /* pousse cet élément vers la gauche */
 }
 
 .nav-menu .right {
-    margin-left: 25vw; /* Pousse cet élément vers la droite */
+    margin-left: 22vw; /* pousse cet élément vers la droite */
 }
 
 .nav-menu li {
@@ -56,6 +57,15 @@ p {
     text-decoration: none;
     font-size: 16px;
 }
+
+.nav-menu img {
+    position: absolute;
+    height: 90%;
+    width: auto;
+    top: 3px;
+    left: 8vw;
+}
+
 
 /* bannière de présentation */
 
