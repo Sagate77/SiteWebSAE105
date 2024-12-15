@@ -14,40 +14,45 @@ body {
   color: #fff; /* Texte blanc */
 }
 
-.nav-menu {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  top: 0;
-  width: 100%;
-  padding: 20px 30px;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 0;
-  list-style: none;
-  z-index: 20; /* Assurez-vous que le menu est au-dessus des autres éléments */
+  .nav-menu {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding: 20px 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    list-style: none;
+    z-index: 20;
 }
 
 .nav-menu .left {
-  margin-right: 500px; /* Pousse cet élément vers la gauche */
+    margin-right: 22vw; /* pousse cet élément vers la gauche */
 }
 
 .nav-menu .right {
-  margin-left: 500px; /* Pousse cet élément vers la droite */
+    margin-left: 22vw; /* pousse cet élément vers la droite */
 }
 
 .nav-menu li {
-  margin: 0 20px;
+    margin: 0 1vw;
 }
 
 .nav-menu a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
 }
 
-
-
-
+.nav-menu img {
+    position: absolute;
+    height: 90%;
+    width: auto;
+    top: 3px;
+    left: 8vw;
+}
 
 
 /* Ajout de styles pour la section À propos */
