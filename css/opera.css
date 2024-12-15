@@ -27,36 +27,46 @@ h1{
     text-align: center; 
 }
 
-.nav-menu {
+  .nav-menu {
     position: fixed;
     display: flex;
     justify-content: center;
     top: 0;
     width: 100%;
-    padding: 20px 30px;
+    height: auto;
+    padding: 20px 45px;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0;
     list-style: none;
-    z-index: 20; 
-  }
-  
+    z-index: 20;
+}
+
 .nav-menu .left {
-    margin-right: 500px; /* Pousse cet élément vers la gauche */
-  }
-  
+    margin-right: 22vw; /* pousse cet élément vers la gauche */
+}
+
 .nav-menu .right {
-    margin-left: 500px; /* Pousse cet élément vers la droite */
-  }
-  
+    margin-left: 22vw; /* pousse cet élément vers la droite */
+}
+
 .nav-menu li {
-    margin: 0 20px;
-  }
-  
+    margin: 0 1vw;
+}
+
 .nav-menu a {
     color: white;
     text-decoration: none;
     font-size: 16px;
-  }
+}
+
+.nav-menu img {
+    position: absolute;
+    height: 90%;
+    width: auto;
+    top: 3px;
+    left: 8vw;
+}
+
 
 .Presentation{
     display: flex;
