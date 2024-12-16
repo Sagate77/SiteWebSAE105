@@ -3,6 +3,7 @@
 header {
   width: 100%;
   position: relative; /* Retirer la hauteur pleine page et la rendre relative */
+  z-index: 10; /* Assurez-vous que le menu est au-dessus des autres éléments */
 }
 
 body {
@@ -13,18 +14,19 @@ body {
   color: #fff; /* Texte blanc */
 }
 
-  .nav-menu {
+.nav-menu {
     position: fixed;
     display: flex;
     justify-content: center;
     top: 0;
+    left: 0;
     width: 100%;
     height: auto;
     padding: 20px 45px;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0;
     list-style: none;
-    z-index: 20;
+    line-height: 1.1;
 }
 
 .nav-menu .left {
@@ -53,6 +55,10 @@ body {
     left: 8vw;
 }
 
+.nav-menu a:hover {
+  color: #d3d3d3;
+  transition: color 0.3s ease;
+}
 
 /* Ajout de styles pour la section À propos */
 .a-propos {
