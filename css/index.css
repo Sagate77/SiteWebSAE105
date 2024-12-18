@@ -50,6 +50,10 @@ body, html {
     left: 8vw;
 }
 
+.nav-menu a:hover {
+  color: #d3d3d3;
+  transition: color 0.3s ease;
+}
 
 /* Partie Bestination et L'image D'avion derrière*/
 
